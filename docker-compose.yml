@@ -1,0 +1,8 @@
+services:
+  linux-container:
+    build: .
+    container_name: linux_container
+    volumes:
+      - ./linux_command_line:/linux_command_line
+    stdin_open: true
+    tty: true
