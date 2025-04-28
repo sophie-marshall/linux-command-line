@@ -10,7 +10,8 @@ RUN apt-get update && apt-get install -y \
     vim \
     build-essential \
     git \
-    sudo
+    sudo \
+    file 
 
 # create a working directory 
 WORKDIR /linux_command_line
