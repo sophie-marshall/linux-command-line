@@ -11,7 +11,10 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     git \
     sudo \
-    file 
+    file \
+    man-db \
+    manpages \
+    manpages-dev
 
 # create a working directory 
 WORKDIR /linux_command_line
