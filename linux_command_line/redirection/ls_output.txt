@@ -1,0 +1,9 @@
+total 4
+-rw-r--r-- 1 root   root    0 May 12 19:00 ls_output.txt
+-rw-r--r-- 1 ubuntu ubuntu 19 May  7 13:56 renamed_hello.txt
+total 8
+-rw-r--r-- 1 root   root   126 May 12 19:00 ls_output.txt
+-rw-r--r-- 1 ubuntu ubuntu  19 May  7 13:56 renamed_hello.txt
+total 8
+-rw-r--r-- 1 root   root   254 May 12 19:01 ls_output.txt
+-rw-r--r-- 1 ubuntu ubuntu  19 May  7 13:56 renamed_hello.txt

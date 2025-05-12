@@ -14,7 +14,14 @@ RUN apt-get update && apt-get install -y \
     file \
     man-db \
     manpages \
-    manpages-dev
+    manpages-dev \    
+    groff \
+    less \
+    locales && \
+    locale-gen en_US.UTF-8
+
+# unminimize to allow for manpages
+RUN yes | unminimize
 
 # create a working directory 
 WORKDIR /linux_command_line
