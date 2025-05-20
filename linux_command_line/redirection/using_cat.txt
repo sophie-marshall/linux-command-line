@@ -1,0 +1,1 @@
+Here is some input for cat to work with!
